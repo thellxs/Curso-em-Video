@@ -1,0 +1,35 @@
+dir = comando que lista as pastas dentro da pasta
+cd + nome da pasta = para abrir a pasta no terminal
+cd .. = para voltar
+cls = limpar o terminal no git é crtl + l
+TAB = autocompleta o bgl
+mkdir = cria nova pasta
+echo = redirecionador de arquivo
+echo > = cria arquivogit status
+
+del = apagar ARQUIVOS e nao repositorio
+rmdir + nome do repositorio /s /q = apagará todo repositorio com td dentro
+
+TERMINAL DO GIT
+ls = litas os arquivos/pasta 
+ls -a = mostra os q estão ocultos
+git status = mostra o stts do bgl VERDE OU RED
+mv + nome do arquivo para mover ele (mv creatinadefrango.md ./pasta)
+git commit -m "mensagem" = cria comimt
+git remote add origin + o link https = cria a ligação do git ao repositorio do hub
+git remote -v 
+git init
+.
+
+++Como Salvar as parada no terminal e no github++
+CRIA O REPOSITORIO NO GITHUB E DPS UMA PASTA NO PC PRA ABRIR COM O BASH E CLONAR
+
+GIT CLONE + O LINK COPIADO
+
+git add . + 
+dps git status dnv pra ver se ficou verdinho
+
+git commit -m "alguma mensagem" = é a mensagem que fica do ladinho no site.
+
+e por fim pra ir pro github de vez faça:
+git push origin main

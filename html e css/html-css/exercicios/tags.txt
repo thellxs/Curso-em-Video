@@ -1,0 +1,60 @@
+! + ENTER
+crtl K crtl o abre pasta no vs code
+ctrl + shift + p + abb (wrap with abbreviation) e enter = envelopa com a tag que tu quer, claro voce marcando a porra da tag ne
+link favicon 
+ctrl + BARRA pros links
+./ é a propria pasta
+../ volte uma pasta
+
+<p>lore = ai aparefec aquele lorem ipsolum
+alt + shift + F = identação do codigo 
+alt pressionado pra marcar as linhas que quer mudar
+<hr> = faz aquela linha escrota
+<br> = quebra de linha
+<negrito> = <strong>
+<italico> = <em>
+<mark> = marca texto
+<ol type> = lista ordenada = a, A, i, I, 1
+<ul type> = lista nao ordenada = disc, circle, square
+li = list item
+dl = definition list
+dt = definition term
+dd = definition description
+
+a href= "link do site" target="_blank" rel="external" = abre outra aba ao clicar no link q tu botou
+atributos REL q indica a natureza do destino daquele link e são 4 valores:
+NEXT indica que o link é para a próxima parte do documento atual
+PREV indica que o link é para a parte anterior do documento atual
+AUTHOR indica que é um link para o site do autor do artigo atual
+EXTERNAL indica que é um link para outro site que não faz parte do site
+NOFOLLOW é pra quando fazer uma propaganda, porém sem aval.
+
+atributos TARGET: 
+_blank abre um link em uma nova janela em branco
+_self abre o link na janela ou frame atual (padrão)
+
+
+
+PRA MUDAR A COR DO MARCA TEXTO NO CSS, VAI LÁ EM CIMA NO TITULO E POE 
+<style>
+        mark {
+            background-color: fuchsia;
+        }
+    </style>
+
+<small> = texto pequeno 
+<del> = texto excluido
+<ins> = texto inserido(aquele sublinhadinho bonitinho)
+texto sobrescrito (ex: dois X ao quadrado) = sup  
+subscrito(ex: H20 com o dois embaixo) = sub 
+
+
+<code> = quando voce citar algum codigo de linguagem de programação
+pro codigo ir identado da maneiro q escreveu, envelopa tudo na tag PRE
+
+Q = " citação "
+bloquote = citação completa de algum livro ou sla se por o CITE depois do bloquote, vc pode inserir o link de onde tirou isso
+
+Caso coloque uma abreviatura, voce deve envelopar com a tag abbr e no titulo por o significado dessa abreviatura ex: HTML Hypertext Markup Language. É tipo aquele esquema pra dizer oque ta na imagem pros deficientes visuais.
+
+tag bdo vc consegue escrever o bgl igual no espelho, de tras pra frente. da pr fazer uma palhaçaciha no futuro
