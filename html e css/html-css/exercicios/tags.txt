@@ -34,6 +34,12 @@ _blank abre um link em uma nova janela em branco
 _self abre o link na janela ou frame atual (padrão)
 
 
+height/rait = altura
+width/ uidef = largura
+border = borda
+: = pseudoclass, serve pra configurar o estado do elemento. ativo/marcado/vazio/habilitado etc..
+. = class
+# = id
 
 PRA MUDAR A COR DO MARCA TEXTO NO CSS, VAI LÁ EM CIMA NO TITULO E POE 
 <style>
