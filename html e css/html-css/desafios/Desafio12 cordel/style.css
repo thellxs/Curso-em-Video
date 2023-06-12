@@ -60,6 +60,10 @@ section { /*criou o espaço necessario entre os poemas, onde q vai estar entrand
     line-height: 2em; /*espaçamento entre as frases*/
     font-family: var(--font2);
     font-size: 3.3vw;
+    
+}
+section >p {
+    padding-bottom: 1.5em;
 }
 
 section.normal {
@@ -70,11 +74,27 @@ section.normal {
 section.image {
     background-color: rgb(53, 53, 53);
     color: white;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.664);
+    background-attachment: fixed; /*o paralax*/
 }
 section.image > p { /*criamos uma caixa pra quando for adicionada imagem no fundo, não confundir as caixas*/
-    background-color: rgba(0, 0, 0, 0.247);
+    background-color: rgba(0, 0, 0, 0.11);
     display: inline-block; /*se adaptou ao conteudo da caixa*/
     padding: 5px;
+    text-shadow: 1px 1px 0px black; /*sombra no texto dos paragrafos*/
+    
+}
+
+#img01{
+    background-image: url(/imagens/background001.jpg);
+    background-position: right center;
+    
+}
+#img02{
+background-image: url(imagens/background002.jpg);
+background-position: right center;
+
 }
 
 footer {
